@@ -229,7 +229,7 @@ function _update()
  end
 
  function movemoon()
-   moonx += 0.3
+   moonx += 0.25
  end
  
  --more like animate
@@ -275,14 +275,7 @@ function moveplayer(changex, changey)
  texttoprint = currentcell
  
  --check for final moon jump 
- 
- if(currentcell== 18) then
-  startmoonjourney()
- elseif(currentcell== 19) then
-  startmoonjourney()
- elseif(currentcell== 34) then
-  startmoonjourney()
- elseif(currentcell== 35) then
+ if(currentcell== 46) then
   startmoonjourney()
  end
    
